@@ -418,7 +418,7 @@ namespace Vision
         while (!stopping())
         {
           waitForMessages(1.0);
-          if (!isActive())
+          if (false)
           {
             fm_state = FireMappingState::None;
           } else
